@@ -15,7 +15,7 @@
 
 - Stores validated users in an external text file
 
-Works offline after installation
+- Works offline after installation
 
 🧰 Tech Stack
 
@@ -35,9 +35,9 @@ Works offline after installation
 
 - On successful validation, user enters:
 
-Current location
+> Current location
 
-Destination building
+> Destination building
 
 - If both buildings are valid:
 
@@ -53,67 +53,67 @@ Destination building
 
 - Includes major Clifton Campus buildings such as:
 
-DH Lawrence
+> DH Lawrence
 
-Clifton Library
+> Clifton Library
 
-John Clare Lecture Theatre
+> John Clare Lecture Theatre
 
-ISTEC
+> ISTEC
 
-Erasmus Darwin
+> Erasmus Darwin
 …and more (full list in NTU_map_portal.py).
 
 🗂️ File Handling
 
-A Student ID.txt file is created automatically.
+- A Student ID.txt file is created automatically.
 
-Stores Name and Student ID of each user who passes validation.
+- Stores Name and Student ID of each user who passes validation.
 
 🧪 Installation
 # clone the repository
-git clone https://github.com/<your-username>/NTU-Map-Portal.git
+- git clone https://github.com/<your-username>/NTU-Map-Portal.git
 cd NTU-Map-Portal
 
 # install dependencies
-pip install folium
+- pip install folium
 
 ▶️ Usage
-python NTU_map_portal.py
+- python NTU_map_portal.py
 
 
-Follow on-screen prompts:
+> Follow on-screen prompts:
 
-Enter your Name and Student ID
+- Enter your Name and Student ID
 
-Enter current and destination building names
+- Enter current and destination building names
 
-View generated map in your default browser.
+- View generated map in your default browser.
 
 🧭 Example
-Enter your Name: LAVAN
-Enter your student ID: N1234567
-Hi LAVAN, you are eligible to access this site.
-Where are you now? DH LAWRENCE
-Where you wanted to go? ISTEC
+> Enter your Name: LAVAN
+> Enter your student ID: N1234567
+> Hi LAVAN, you are eligible to access this site.
+> Where are you now? DH LAWRENCE
+> Where you wanted to go? ISTEC
 
 
 👉 A map with two marked points opens automatically.
 
 ⚡ Future Improvements
 
-Real-time location tracking
+- Real-time location tracking
 
-Actual route mapping
+- Actual route mapping
 
-NTU database integration for authentication
+- NTU database integration for authentication
 
-GUI implementation
+- GUI implementation
 
-Multi-campus support
+- Multi-campus support
 
 📝 Reference
 
-Coordinates: [Nottingham Trent University Clifton Campus on Google Maps]
+- Coordinates: [Nottingham Trent University Clifton Campus on Google Maps]
 
-Building names: MazeMap NTU
+- Building names: MazeMap NTU
