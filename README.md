@@ -1,56 +1,57 @@
 🗺️ NTU Map Portal
+> 🧑‍💻 *This project was created as part of my **Year 1 Programming module** at NTU.*
 
 - A Python-based interactive campus navigation program built using folium. It allows students to find buildings on NTU Clifton campus, validate student identity, and generate a dynamic map with marked start and destination points.
 
 📌 Features
 
-Name and Student ID validation before map access
+- Name and Student ID validation before map access
 
-Auto-suggestion of building names for incorrect entries
+- Auto-suggestion of building names for incorrect entries
 
-Interactive map pop-up in the default browser
+- Interactive map pop-up in the default browser
 
-Displays two marked points with a connecting line
+- Displays two marked points with a connecting line
 
-Stores validated users in an external text file
+- Stores validated users in an external text file
 
 Works offline after installation
 
 🧰 Tech Stack
 
-Language: Python 3
+- Language: Python 3
 
-Library: folium
+-  Library: folium
 
-Browser: Default system browser (via Python Standard Library webbrowser module)
+-  Browser: Default system browser (via Python Standard Library webbrowser module)
 
 🧭 How It Works
 
-User enters Name and Student ID.
+- User enters Name and Student ID.
 
-Name must not contain digits.
+- Name must not contain digits.
 
-ID must start with N or T and contain 8 characters.
+- ID must start with N or T and contain 8 characters.
 
-On successful validation, user enters:
+- On successful validation, user enters:
 
 Current location
 
 Destination building
 
-If both buildings are valid:
+- If both buildings are valid:
 
-A map is generated and opened in the browser.
+- A map is generated and opened in the browser.
 
-If input is incorrect:
+- If input is incorrect:
 
-Program suggests buildings or lists all names.
+- Program suggests buildings or lists all names.
 
-User can retry or exit.
+- User can retry or exit.
 
 🏛️ Buildings Covered
 
-Includes major Clifton Campus buildings such as:
+- Includes major Clifton Campus buildings such as:
 
 DH Lawrence
 
