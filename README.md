@@ -92,10 +92,15 @@ cd NTU-Map-Portal
 
 🧭 Example
 > Enter your Name: LAVAN
+
 > Enter your student ID: N1234567
+
 > Hi LAVAN, you are eligible to access this site.
+
 > Where are you now? DH LAWRENCE
+
 > Where you wanted to go? ISTEC
+
 
 
 👉 A map with two marked points opens automatically.
