@@ -1,6 +1,6 @@
 🗺️ NTU Map Portal
 
-A Python-based interactive campus navigation program built using folium. It allows students to find buildings on NTU Clifton campus, validate student identity, and generate a dynamic map with marked start and destination points.
+- A Python-based interactive campus navigation program built using folium. It allows students to find buildings on NTU Clifton campus, validate student identity, and generate a dynamic map with marked start and destination points.
 
 📌 Features
 
