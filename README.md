@@ -72,7 +72,7 @@
 
 🧪 Installation
 # clone the repository
-- git clone https://github.com/<your-username>/NTU-Map-Portal.git
+- git clone https://github.com/im-Lavan/NTU-Map-Portal.git
 cd NTU-Map-Portal
 
 # install dependencies
